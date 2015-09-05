@@ -18,6 +18,9 @@ TARGET_KERNEL_SOURCE := kernel/sony/msm
 # Assert
 TARGET_OTA_ASSERT_DEVICE := D2303,D2403,eagle
 
+# use prebuilt chromium
+PRODUCT_PREBUILT_WEBVIEWCHROMIUM := yes
+
 # TWRP Recovery
 DEVICE_RESOLUTION := 540x960
 BOARD_USE_CUSTOM_RECOVERY_FONT := \"roboto_10x18.h\"
