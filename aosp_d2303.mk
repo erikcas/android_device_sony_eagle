@@ -33,7 +33,9 @@ PRODUCT_COPY_FILES += \
     device/sony/eagle/rootdir/system/etc/libnfc-brcm.conf:system/etc/libnfc-brcm.conf \
     device/sony/eagle/rootdir/system/etc/libnfc-nxp.conf:system/etc/libnfc-nxp.conf \
     device/sony/eagle/rootdir/fstab.yukon:root/fstab.yukon \
-    device/sony/eagle/rootdir/init.yukon.dev.rc:root/init.yukon.dev.rc
+    device/sony/eagle/rootdir/twrp.fstab:recovery/root/etc/twrp.fstab \
+    device/sony/eagle/rootdir/init.yukon.dev.rc:root/init.yukon.dev.rc \
+    device/sony/eagle/rootdir/init.qcom.ril.sh:root/init.qcom.ril.sh
 
 # Product attributes
 PRODUCT_NAME := aosp_d2303
@@ -49,3 +51,13 @@ PRODUCT_AAPT_PREF_CONFIG := hdpi
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.sf.lcd_density=240 \
     ro.usb.pid_suffix=1B8
+
+
+# DSDS specific properties
+PRODUCT_PROPERTY_OVERRIDES += \
+    persist.radio.multisim.config=dsds \
+    persist.multisim.config=dsds \
+    telephony.lteOnCdmaDevice=0 \
+    ro.telephony.default_network=0,1
+
+TARGET_OTA_ASSERT_DEVICE := D2302,eagle_dsds
