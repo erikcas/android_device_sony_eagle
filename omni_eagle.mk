@@ -18,6 +18,17 @@ TARGET_KERNEL_SOURCE := kernel/sony/msm
 # Assert
 TARGET_OTA_ASSERT_DEVICE := D2302,D2303,D2305,D2306,D2403,eagle
 
+# DSDS specific properties
+PRODUCT_PROPERTY_OVERRIDES += \
+    persist.radio.multisim.config=dsds \
+    persist.multisim.config=dsds \
+    telephony.lteOnCdmaDevice=0 \
+    ro.telephony.default_network=0,1
+
+# DSDS second ril start script
+PRODUCT_COPY_FILES += \
+    device/sony/eagle/rootdir/init.class_main.sh:root/init.class_main.sh
+
 # TWRP Recovery
 DEVICE_RESOLUTION := 540x960
 BOARD_USE_CUSTOM_RECOVERY_FONT := \"roboto_10x18.h\"

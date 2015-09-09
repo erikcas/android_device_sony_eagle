@@ -28,3 +28,18 @@ service btnvtool /system/vendor/bin/btnvtool -I
     user root
     group root
     oneshot
+
+service ril-daemon1 /system/bin/rild -c 2
+    class main
+    socket rild2 stream 660 root radio
+    socket rild-debug2 stream 660 radio system
+    user root
+    group radio cache inet misc audio
+
+service modem-c_main-sh /system/bin/sh /init.class_main.sh
+    class main
+    user root
+    oneshot
+
+on property:vold.decrypt=trigger_restart_framework
+    start modem-c_main-sh
