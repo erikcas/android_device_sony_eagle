@@ -51,4 +51,8 @@ PRODUCT_PROPERTY_OVERRIDES += \
     ro.sf.lcd_density=240 \
     ro.usb.pid_suffix=1B8
 
-TARGET_OTA_ASSERT_DEVICE := D2303,eagle,eagle_lte
+# Assert
+TARGET_OTA_ASSERT_DEVICE := D2303,D2305,D2306,D2403,D2406,eagle,eagle_dsds
+
+# TWRP Recovery
+DEVICE_RESOLUTION := 540x960
