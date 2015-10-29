@@ -34,9 +34,6 @@ $(call inherit-product, vendor/omni/config/gsm.mk)
 # Inherit Omni product configuration
 $(call inherit-product, vendor/omni/config/common.mk)
 
-# Inherit gapps
-$(call inherit-product, vendor/apps/vendor-google.mk)
-
 # Recovery
 PRODUCT_COPY_FILES += \
     device/sony/eagle/recovery/root/etc/bootrec-device:recovery/root/etc/bootrec-device \
