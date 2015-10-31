@@ -9,7 +9,7 @@
     "remote":       "erikcas",
     "repository":   "android_kernel_sony_msm",
     "target_path":  "kernel/sony/msm",
-    "revision":     "eagle-3.4-6.0"
+    "revision":     "eagle-6.0-3.4"
   },
   {
     "remote":       "omnirom",
