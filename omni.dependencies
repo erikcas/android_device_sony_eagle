@@ -88,5 +88,11 @@
     "repository": "android_packages_apps_Nfc",
     "target_path": "packages/apps/Nfc",
     "revision": "android-6.0"
+  },
+  {
+    "remote": "github",
+    "repository": "maxwen/vendor_qcom_opensource_display-frameworks",
+    "target_path": "vendor/qcom/opensource/display-frameworks",
+    "revision": "android-6.0"
   }
 ]
