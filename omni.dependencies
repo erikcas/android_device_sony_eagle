@@ -9,7 +9,7 @@
     "remote":       "erikcas",
     "repository":   "android_kernel_sony_msm",
     "target_path":  "kernel/sony/msm",
-    "revision":     "amami-3.4-6.0"
+    "revision":     "eagle-3.4-6.0"
   },
   {
     "remote":       "omnirom",
@@ -48,8 +48,8 @@
     "revision": "android-6.0"
   },
   {
-    "remote": "github",
-    "repository": "maxwen/android_hardware_qcom_media-caf-msm8974",
+    "remote": "erikcas",
+    "repository": "android_hardware_qcom_media-caf-msm8974",
     "target_path": "hardware/qcom/media-caf-msm8974",
     "revision": "android-6.0"
   },
