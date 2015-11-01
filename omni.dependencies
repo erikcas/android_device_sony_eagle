@@ -1,26 +1,56 @@
 [
   {
-    "remote":       "omnirom",
+    "remote":       "erikcas",
     "repository":   "android_device_sony_yukon-common",
     "target_path":  "device/sony/yukon-common",
-    "revision":     "android-5.1"
+    "revision":     "android-6.0-cas"
   },
   {
-    "remote":       "omnirom",
+    "remote":       "erikcas",
     "repository":   "android_kernel_sony_msm",
     "target_path":  "kernel/sony/msm",
-    "revision":     "android-5.1"
+    "revision":     "android-5.1-test"
   },
   {
     "remote":       "omnirom",
     "repository":   "android_hardware_sony_thermanager",
     "target_path":  "hardware/sony/thermanager",
-    "revision":     "android-5.1"
+    "revision":     "android-6.0"
   },
   {
     "remote":       "omnirom",
     "repository":   "android_hardware_sony_timekeep",
     "target_path":  "hardware/sony/timekeep",
-    "revision":     "android-5.1"
+    "revision":     "android-6.0"
+  },
+  {
+    "remote":       "omnirom",
+    "repository":   "android_hardware_sony_macaddrsetup",
+    "target_path":  "hardware/sony/macaddrsetup",
+    "revision":     "android-6.0"
+  },
+  {
+    "remote":       "omnirom",
+    "repository":   "android_hardware_sony_boringssl-compat",
+    "target_path":  "hardware/sony/boringssl-compat",
+    "revision":     "android-6.0"
+  },
+  {
+    "remote":       "omnirom",
+    "repository":   "android_device_qcom_aosp-sepolicy",
+    "target_path":  "device/qcom/aosp-sepolicy",
+    "revision":     "android-6.0"
+  },
+  {
+    "remote": "erikcas",
+    "repository": "android_hardware_qcom_gps",
+    "target_path": "hardware/qcom/gps",
+    "revision": "android-6.0"
+  },
+  {
+    "remote": "omnirom",
+    "repository": "android_external_stlport",
+    "target_path": "external/stlport",
+    "revision": "android-6.0"
   }
 ]
