@@ -45,7 +45,7 @@
     "remote": "erikcas",
     "repository": "android_hardware_qcom_gps",
     "target_path": "hardware/qcom/gps",
-    "revision": "android-6.0"
+    "revision": "android-6.0-test"
   },
   {
     "remote": "omnirom",
