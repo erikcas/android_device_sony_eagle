@@ -1,15 +1,15 @@
 [
   {
-    "remote":       "omnirom",
+    "remote":       "erikcas",
     "repository":   "android_device_sony_yukon-common",
     "target_path":  "device/sony/yukon-common",
-    "revision":     "android-5.1"
+    "revision":     "android-5.1-cas"
   },
   {
-    "remote":       "omnirom",
+    "remote":       "erikcas",
     "repository":   "android_kernel_sony_msm",
     "target_path":  "kernel/sony/msm",
-    "revision":     "android-5.1"
+    "revision":     "android-5.1-test"
   },
   {
     "remote":       "omnirom",
@@ -22,5 +22,17 @@
     "repository":   "android_hardware_sony_timekeep",
     "target_path":  "hardware/sony/timekeep",
     "revision":     "android-5.1"
+  },
+  {
+    "remote": "erikcas",
+    "repository": "android_hardware_qcom_gps",
+    "target_path": "hardware/qcom/gps",
+    "revision": "android-5.1"
+  },
+  {
+    "remote": "erikcas",
+    "repository": "android_hardware_qcom_camera",
+    "target_path": "hardware/qcom/camera",
+    "revision": "android-5.1"
   }
 ]
