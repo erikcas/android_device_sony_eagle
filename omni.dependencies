@@ -1,15 +1,15 @@
 [
   {
-    "remote":       "omnirom",
-    "repository":   "android_device_sony_yukon-common",
+    "remote":       "github",
+    "repository":   "erikcas/android_device_sony_yukon-common",
     "target_path":  "device/sony/yukon-common",
-    "revision":     "android-6.0"
+    "revision":     "android-6.0-dev"
   },
   {
-    "remote":       "omnirom",
-    "repository":   "android_device_sony_common",
+    "remote":       "github",
+    "repository":   "erikcas/android_device_sony_common",
     "target_path":  "device/sony/common",
-    "revision":     "android-6.0"
+    "revision":     "android-6.0-dev"
   },
   {
     "remote":       "omnirom",
