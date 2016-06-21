@@ -12,12 +12,9 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-include device/sony/yukon-common/BoardConfig.mk
-include device/sony/yukon-common/BoardConfigOmni.mk
+include device/sony/yukon-common/PlatformConfigOmni.mk
 
-TARGET_SPECIFIC_HEADER_PATH += device/sony/eagle/include
-
-TARGET_RECOVERY_FSTAB = device/sony/eagle/rootdir/fstab.yukon
+TARGET_RECOVERY_FSTAB = device/sony/eagle/rootdir/fstab.eagle
 
 TARGET_BOOTLOADER_BOARD_NAME := D2303
 
@@ -25,5 +22,5 @@ BOARD_SYSTEMIMAGE_PARTITION_SIZE   := 1962934272
 #Reserve space for data encryption (5461000192-16384)
 BOARD_USERDATAIMAGE_PARTITION_SIZE := 5460983808
 
-#BOARD_KERNEL_CMDLINE += mem=128M@0 mem=755M@255M
+BOARD_KERNEL_CMDLINE += androidboot.hardware=eagle
 BOARD_KERNEL_CMDLINE += mem=1003M
